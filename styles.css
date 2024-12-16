@@ -12,7 +12,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: row;
 }
 
 .header-links {
@@ -23,7 +22,6 @@ body {
 ul {
     display: flex;
     list-style-type: none;
- 
     margin: 0;
     padding: 0;
     gap: 16px;
