@@ -46,7 +46,7 @@ a {
 
 .hero {
     display: flex;
-    margin: 40px 0px 40px 0px;
+    margin: 100px 0px;
     justify-content: center;
     align-items: center;
 }
@@ -82,11 +82,12 @@ a {
     justify-content: center;
     align-items: center;
     background-color: #e5e7eb6b;
-    width: 600px;
+    max-width: 600px;
     margin-left: 40px;
     margin-right: 200px;
     flex-grow: 1;
     align-self: stretch;
+    padding: 0px 50px;
   }
 
 .section-2 {
@@ -189,4 +190,11 @@ a {
 .action-title {
     font-size: 24px;
     font-weight: 900;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
 }
