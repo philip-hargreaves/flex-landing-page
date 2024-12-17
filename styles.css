@@ -67,11 +67,12 @@ a {
     margin-left: 200px;
 }
 
-.hero-button {
+.sign-up-button {
     padding: 5px 20px;
     border-radius: 8px;
     color: white;
     background-color: #3882F6;
+    border: #3882F6;
     font-weight: 900;
     font-size: 16px;
 }
@@ -160,6 +161,32 @@ a {
 
 .author-name {
     align-self: flex-end;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.section-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.action-box {
+    display: flex;
+    margin: 100px 0px;
+    background-color: #3882F6;
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+
+.action-box .sign-up-button {
+    border: 3px solid white;
+    margin-left: 100px;
+}
+
+.action-title {
     font-size: 24px;
     font-weight: 900;
 }
